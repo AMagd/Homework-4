@@ -36,8 +36,8 @@ else
     q32 = beta - pi;
 
 
-    q = [q1 q21 q31;
-         q1 q22 q32]; 
+    q = [q1 -q21 -q31;
+         q1 -q22 -q32]; 
 end
 
  q = rad2deg(q)';
